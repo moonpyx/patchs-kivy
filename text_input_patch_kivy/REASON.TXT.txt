@@ -1,0 +1,3 @@
+On Android devices running version 16, a bug occurs when using `below_target`: the text box doesn't automatically adjust to the keyboard height and remains hidden.
+
+This patch helps synchronize events so the text box automatically adjusts.
